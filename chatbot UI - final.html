@@ -1,0 +1,20 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://dl.dropboxusercontent.com/s/uww42pxiiduyp6l/chatroom.css" />
+</head>
+<body>
+  <div class="chat-container"></div>
+
+  <script src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js"/></script>
+  <script type="text/javascript">
+    var chatroom = window.Chatroom({
+      host: "http://ec2-13-233-165-131.ap-south-1.compute.amazonaws.com:5555",
+      title: "Chat with Analysed bot",
+      container: document.querySelector(".chat-container"),
+      welcomeMessage: "Hi, I am Analysedbot. How may I help you?",
+      speechRecognition: "en-US"
+    });
+    chatroom.openChat();
+  </script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+domain
+actions
+data/ stories
+data/ nlu

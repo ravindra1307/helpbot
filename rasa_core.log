@@ -1,0 +1,289 @@
+2019-08-09 23:54:05,502 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-08-09 23:54:05,699 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-10 02:53:31,777 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\programdata\anaconda3\lib\asyncio\base_events.py", line 582, in run_until_complete
+    raise RuntimeError('Event loop stopped before Future completed.')
+RuntimeError: Event loop stopped before Future completed.
+2019-08-10 03:00:40,830 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\programdata\anaconda3\lib\asyncio\base_events.py", line 582, in run_until_complete
+    raise RuntimeError('Event loop stopped before Future completed.')
+RuntimeError: Event loop stopped before Future completed.
+2019-08-10 03:08:35,028 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\programdata\anaconda3\lib\asyncio\base_events.py", line 582, in run_until_complete
+    raise RuntimeError('Event loop stopped before Future completed.')
+RuntimeError: Event loop stopped before Future completed.
+2019-08-11 00:41:01,044 [ERROR]  Exception occurred while handling uri: 'http://fa2d6261.ngrok.io/favicon.ico'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-11 01:24:35,677 [ERROR]  Exception occurred while handling uri: 'http://fa2d6261.ngrok.io//webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL //webhooks/rest/webhook not found
+2019-08-11 14:06:17,761 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 446, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method POST not allowed for URL /
+2019-08-11 14:06:23,782 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 446, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method POST not allowed for URL /
+2019-08-11 14:58:01,398 [ERROR]  Exception occurred while handling uri: 'http://122518a6.ngrok.io/favicon.ico'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-11 14:58:49,358 [ERROR]  Exception occurred while handling uri: 'http://122518a6.ngrok.io/q=hi'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /q=hi not found
+2019-08-11 14:58:49,836 [ERROR]  Exception occurred while handling uri: 'http://122518a6.ngrok.io/favicon.ico'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-11 14:58:56,166 [ERROR]  Exception occurred while handling uri: 'http://122518a6.ngrok.io/favicon.ico'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-11 15:23:56,576 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 446, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method POST not allowed for URL /
+2019-08-11 15:25:40,101 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-11 15:38:17,455 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 446, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method POST not allowed for URL /
+2019-08-11 15:46:55,439 [ERROR]  Exception occurred while handling uri: 'http://7a86cdcd.ngrok.io/favicon.ico'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-11 16:05:26,137 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 446, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method POST not allowed for URL /
+2019-08-11 16:09:50,771 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 446, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method POST not allowed for URL /
+2019-08-14 21:20:43,278 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-16 16:18:04,072 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-19 03:00:06,954 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 885, in handle_request
+    response = await self._run_request_middleware(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\spf\framework.py", line 501, in _run_request_middleware
+    response = middleware(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic_cors\extension.py", line 230, in unapplied_cors_request_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic_cors\core.py", line 251, in set_cors_headers
+    headers_to_set = get_cors_headers(options, req.headers, req.method)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic_cors\core.py", line 171, in get_cors_headers
+    origins_to_set = get_cors_origins(options, request_headers.get('Origin'))
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic_cors\core.py", line 126, in get_cors_origins
+    elif try_match_any(request_origin, origins):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic_cors\core.py", line 287, in try_match_any
+    return any(try_match(inst, pattern) for pattern in patterns)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic_cors\core.py", line 287, in <genexpr>
+    return any(try_match(inst, pattern) for pattern in patterns)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic_cors\core.py", line 295, in try_match
+    return re.match(maybe_regex, request_origin, flags=re.IGNORECASE)
+  File "c:\programdata\anaconda3\lib\re.py", line 173, in match
+    return _compile(pattern, flags).match(string)
+  File "c:\programdata\anaconda3\lib\re.py", line 286, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "c:\programdata\anaconda3\lib\sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "c:\programdata\anaconda3\lib\sre_parse.py", line 930, in parse
+    p = _parse_sub(source, pattern, flags & SRE_FLAG_VERBOSE, 0)
+  File "c:\programdata\anaconda3\lib\sre_parse.py", line 426, in _parse_sub
+    not nested and not items))
+  File "c:\programdata\anaconda3\lib\sre_parse.py", line 651, in _parse
+    source.tell() - here + len(this))
+re.error: nothing to repeat at position 0
+2019-08-19 03:00:06,971 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 958, in handle_request
+    request, response
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\spf\framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic_cors\extension.py", line 267, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic_cors\core.py", line 251, in set_cors_headers
+    headers_to_set = get_cors_headers(options, req.headers, req.method)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic_cors\core.py", line 171, in get_cors_headers
+    origins_to_set = get_cors_origins(options, request_headers.get('Origin'))
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic_cors\core.py", line 126, in get_cors_origins
+    elif try_match_any(request_origin, origins):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic_cors\core.py", line 287, in try_match_any
+    return any(try_match(inst, pattern) for pattern in patterns)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic_cors\core.py", line 287, in <genexpr>
+    return any(try_match(inst, pattern) for pattern in patterns)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic_cors\core.py", line 295, in try_match
+    return re.match(maybe_regex, request_origin, flags=re.IGNORECASE)
+  File "c:\programdata\anaconda3\lib\re.py", line 173, in match
+    return _compile(pattern, flags).match(string)
+  File "c:\programdata\anaconda3\lib\re.py", line 286, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "c:\programdata\anaconda3\lib\sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "c:\programdata\anaconda3\lib\sre_parse.py", line 930, in parse
+    p = _parse_sub(source, pattern, flags & SRE_FLAG_VERBOSE, 0)
+  File "c:\programdata\anaconda3\lib\sre_parse.py", line 426, in _parse_sub
+    not nested and not items))
+  File "c:\programdata\anaconda3\lib\sre_parse.py", line 651, in _parse
+    source.tell() - here + len(this))
+re.error: nothing to repeat at position 0
+2019-08-22 02:08:18,710 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-22 02:08:35,631 [ERROR]  Exception occurred while handling uri: 'http://34ee5e3b.ngrok.io/favicon.ico'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-22 02:09:18,491 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2019-08-22 02:09:18,743 [ERROR]  Exception occurred while handling uri: unknown
+NoneType: None
+2019-08-24 03:41:25,014 [ERROR]  Exception occurred while handling uri: 'http://localhost/favicon.ico'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-24 03:42:54,977 [ERROR]  Exception occurred while handling uri: 'http://localhost/favicon.ico'
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found

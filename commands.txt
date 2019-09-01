@@ -1,0 +1,3 @@
+rasa run actions
+rasa run --enable-api --endpoints endpoints.yml --cors "*"
+rasa interactive --endpoints endpoints.yml

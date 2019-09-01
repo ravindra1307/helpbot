@@ -1,0 +1,1114 @@
+﻿%YAML 1.1
+---
+actions:
+- action_eligibility_criteria
+- action_restarting
+- action_search_address
+- action_search_jobs
+- action_search_exp
+- action_search_salary
+- action_search_job_desc
+- action_skills
+- action_greet
+- action_detail
+- action_questions
+- action_search_jobtime
+- utter_queries
+- utter_contact
+- utter_LMN
+- utter_application
+- utter_ask_again
+- utter_ask_skills
+- utter_charge
+- utter_company_achievement
+- utter_company_address
+- utter_company_apti_ans
+- utter_company_better
+- utter_company_instructions
+- utter_company_job_time
+- utter_company_motto
+- utter_company_vacancies
+- utter_did_that_help
+- utter_goodbye
+- utter_gratitude
+- utter_greet
+- utter_hate
+- utter_helpful
+- utter_holidays
+- utter_interview_date
+- utter_interview_document
+- utter_interview_history
+- utter_interview_round
+- utter_interview_success
+- utter_interview_time
+- utter_job_description_applied
+- utter_job_match
+- utter_more
+- utter_popular_company
+- utter_salary
+- utter_skills_job
+- utter_stupid_question
+- utter_think
+- utter_unclear
+- utter_user_ideal
+- utter_out_of_context
+- utter_faq_0
+- utter_faq_1
+- utter_faq_2
+- utter_faq_3
+- utter_faq_4
+- utter_faq_5
+- utter_faq_6
+- utter_faq_7
+- utter_faq_8
+- utter_faq_9
+- utter_faq_10
+- utter_faq_11
+- utter_faq_12
+- utter_faq_13
+- utter_faq_14
+- utter_faq_15
+- utter_faq_16
+- utter_faq_17
+- utter_faq_18
+- utter_faq_19
+- utter_faq_20
+- utter_faq_21
+- utter_faq_22
+- utter_faq_23
+- utter_faq_24
+- utter_faq_25
+- utter_faq_26
+- utter_faq_27
+- utter_faq_28
+- utter_faq_29
+- utter_faq_30
+- utter_faq_31
+- utter_faq_32
+- utter_faq_33
+- utter_faq_34
+- utter_faq_35
+- utter_faq_36
+- utter_faq_37
+- utter_faq_38
+- utter_faq_39
+- utter_faq_40
+- utter_faq_41
+- utter_faq_42
+- utter_faq_43
+- utter_faq_44
+- utter_faq_45
+- utter_faq_46
+- utter_faq_47
+- utter_faq_48
+- utter_faq_49
+- utter_faq_50
+- utter_faq_51
+- utter_faq_52
+- utter_faq_53
+- utter_faq_54
+- utter_faq_55
+- utter_faq_56
+- utter_faq_57
+- utter_faq_58
+- utter_faq_59
+- utter_faq_60
+- utter_faq_61
+- utter_faq_62
+- utter_faq_63
+- utter_faq_64
+- utter_faq_65
+- utter_faq_66
+- utter_faq_67
+- utter_faq_68
+- utter_faq_69
+- utter_faq_70
+- utter_faq_71
+- utter_faq_72
+- utter_faq_73
+- utter_faq_74
+- utter_faq_75
+- utter_faq_76
+- utter_faq_77
+- utter_faq_78
+- utter_faq_79
+- utter_faq_80
+- utter_faq_81
+- utter_faq_82
+- utter_faq_83
+- utter_faq_84
+- utter_faq_85
+- utter_faq_86
+- utter_faq_87
+- utter_faq_88
+- utter_faq_89
+- utter_faq_90
+- utter_faq_91
+- utter_faq_92
+- utter_faq_93
+- utter_faq_94
+- utter_faq_95
+- utter_faq_96
+- utter_faq_97
+- utter_faq_98
+- utter_faq_99
+- utter_faq_100
+- utter_faq_101
+- utter_faq_102
+- utter_faq_103
+- utter_faq_104
+- utter_faq_105
+- utter_faq_106
+- utter_faq_107
+- utter_faq_108
+- utter_faq_109
+- utter_faq_110
+- utter_faq_111
+- utter_faq_112
+- utter_faq_113
+- utter_faq_114
+- utter_faq_115
+- utter_faq_116
+- utter_faq_117
+- utter_faq_118
+- utter_faq_119
+- utter_faq_120
+- utter_faq_121
+- utter_faq_122
+- utter_faq_123
+- utter_faq_124
+- utter_faq_125
+- utter_faq_126
+- utter_name
+- utter_email
+- utter_registration
+- utter_qualification
+- utter_yop
+- utter_experience
+- utter_phone
+- utter_details
+
+entities:
+- name
+- email
+- qualification
+- experience
+- phone
+- yop
+
+intents:
+- queries
+- registration
+- email
+- name
+- yop
+- experience
+- qualification
+- phone
+- greet
+- think
+- stupid
+- LMN
+- helpful
+- charge
+- user_ideal
+- hate
+- affirm
+- deny
+- goodbye
+- thanks
+- questions
+- faq_0: {triggers: utter_faq_0}
+- faq_1: {triggers: utter_faq_1}
+- faq_2: {triggers: utter_faq_2}
+- faq_3: {triggers: utter_faq_3}
+- faq_4: {triggers: utter_faq_4}
+- faq_5: {triggers: utter_faq_5}
+- faq_6: {triggers: utter_faq_6}
+- faq_7: {triggers: utter_faq_7}
+- faq_8: {triggers: utter_faq_8}
+- faq_9: {triggers: utter_faq_9}
+- faq_10: {triggers: utter_faq_10}
+- faq_11: {triggers: utter_faq_11}
+- faq_12: {triggers: utter_faq_12}
+- faq_13: {triggers: utter_faq_13}
+- faq_14: {triggers: utter_faq_14}
+- faq_15: {triggers: utter_faq_15}
+- faq_16: {triggers: utter_faq_16}
+- faq_17: {triggers: utter_faq_17}
+- faq_18: {triggers: utter_faq_18}
+- faq_19: {triggers: utter_faq_19}
+- faq_20: {triggers: utter_faq_20}
+- faq_21: {triggers: utter_faq_21}
+- faq_22: {triggers: utter_faq_22}
+- faq_23: {triggers: utter_faq_23}
+- faq_24: {triggers: utter_faq_24}
+- faq_25: {triggers: utter_faq_25}
+- faq_26: {triggers: utter_faq_26}
+- faq_27: {triggers: utter_faq_27}
+- faq_28: {triggers: utter_faq_28}
+- faq_29: {triggers: utter_faq_29}
+- faq_30: {triggers: utter_faq_30}
+- faq_31: {triggers: utter_faq_31}
+- faq_32: {triggers: utter_faq_32}
+- faq_33: {triggers: utter_faq_33}
+- faq_34: {triggers: utter_faq_34}
+- faq_35: {triggers: utter_faq_35}
+- faq_36: {triggers: utter_faq_36}
+- faq_37: {triggers: utter_faq_37}
+- faq_38: {triggers: utter_faq_38}
+- faq_39: {triggers: utter_faq_39}
+- faq_40: {triggers: utter_faq_40}
+- faq_41: {triggers: utter_faq_41}
+- faq_42: {triggers: utter_faq_42}
+- faq_43: {triggers: utter_faq_43}
+- faq_44: {triggers: utter_faq_44}
+- faq_45: {triggers: utter_faq_45}
+- faq_46: {triggers: utter_faq_46}
+- faq_47: {triggers: utter_faq_47}
+- faq_48: {triggers: utter_faq_48}
+- faq_49: {triggers: utter_faq_49}
+- faq_50: {triggers: utter_faq_50}
+- faq_51: {triggers: utter_faq_51}
+- faq_52: {triggers: utter_faq_52}
+- faq_53: {triggers: utter_faq_53}
+- faq_54: {triggers: utter_faq_54}
+- faq_55: {triggers: utter_faq_55}
+- faq_56: {triggers: utter_faq_56}
+- faq_57: {triggers: utter_faq_57}
+- faq_58: {triggers: utter_faq_58}
+- faq_59: {triggers: utter_faq_59}
+- faq_60: {triggers: utter_faq_60}
+- faq_61: {triggers: utter_faq_61}
+- faq_62: {triggers: utter_faq_62}
+- faq_63: {triggers: utter_faq_63}
+- faq_64: {triggers: utter_faq_64}
+- faq_65: {triggers: utter_faq_65}
+- faq_66: {triggers: utter_faq_66}
+- faq_67: {triggers: utter_faq_67}
+- faq_68: {triggers: utter_faq_68}
+- faq_69: {triggers: utter_faq_69}
+- faq_70: {triggers: utter_faq_70}
+- faq_71: {triggers: utter_faq_71}
+- faq_72: {triggers: utter_faq_72}
+- faq_73: {triggers: utter_faq_73}
+- faq_74: {triggers: utter_faq_74}
+- faq_75: {triggers: utter_faq_75}
+- faq_76: {triggers: utter_faq_76}
+- faq_77: {triggers: utter_faq_77}
+- faq_78: {triggers: utter_faq_78}
+- faq_79: {triggers: utter_faq_79}
+- faq_80: {triggers: utter_faq_80}
+- faq_81: {triggers: utter_faq_81}
+- faq_82: {triggers: utter_faq_82}
+- faq_83: {triggers: utter_faq_83}
+- faq_84: {triggers: utter_faq_84}
+- faq_85: {triggers: utter_faq_85}
+- faq_86: {triggers: utter_faq_86}
+- faq_87: {triggers: utter_faq_87}
+- faq_88: {triggers: utter_faq_88}
+- faq_89: {triggers: utter_faq_89}
+- faq_90: {triggers: utter_faq_90}
+- faq_91: {triggers: utter_faq_91}
+- faq_92: {triggers: utter_faq_92}
+- faq_93: {triggers: utter_faq_93}
+- faq_94: {triggers: utter_faq_94}
+- faq_95: {triggers: utter_faq_95}
+- faq_96: {triggers: utter_faq_96}
+- faq_97: {triggers: utter_faq_97}
+- faq_98: {triggers: utter_faq_98}
+- faq_99: {triggers: utter_faq_99}
+- faq_100: {triggers: utter_faq_100}
+- faq_101: {triggers: utter_faq_101}
+- faq_102: {triggers: utter_faq_102}
+- faq_103: {triggers: utter_faq_103}
+- faq_104: {triggers: utter_faq_104}
+- faq_105: {triggers: utter_faq_105}
+- faq_106: {triggers: utter_faq_106}
+- faq_107: {triggers: utter_faq_107}
+- faq_108: {triggers: utter_faq_108}
+- faq_109: {triggers: utter_faq_109}
+- faq_110: {triggers: utter_faq_110}
+- faq_111: {triggers: utter_faq_111}
+- faq_112: {triggers: utter_faq_112}
+- faq_113: {triggers: utter_faq_113}
+- faq_114: {triggers: utter_faq_114}
+- faq_115: {triggers: utter_faq_115}
+- faq_116: {triggers: utter_faq_116}
+- faq_117: {triggers: utter_faq_117}
+- faq_118: {triggers: utter_faq_118}
+- faq_119: {triggers: utter_faq_119}
+- faq_120: {triggers: utter_faq_120}
+- faq_121: {triggers: utter_faq_121}
+- faq_122: {triggers: utter_faq_122}
+- faq_123: {triggers: utter_faq_123}
+- faq_124: {triggers: utter_faq_124}
+- faq_125: {triggers: utter_faq_125}
+- faq_126: {triggers: utter_faq_126}
+
+
+slots:
+  name:
+    type: text
+  email:
+    type: text
+  qualification:
+    type: categorical
+    values:
+    - undergraduate
+    - postgraduate
+    - phd
+  experience:
+    type: text
+  phone:
+    type: text
+  yop:
+    type: text
+
+
+
+
+templates:
+  utter_contact:
+  - text: Thanks, our team will contact you soon
+  utter_queries:
+  - text: Tell me your queries i will try my best to help you
+  utter_LMN:
+  - text: the responsibilities of LMN are *display responsibility of LMN employee
+      accordingly *
+  utter_application:
+  - text: ur application has been * display of application status *
+  utter_ask_again:
+  - text: Okay! Let's start again, please tell me what do you need?
+  - text: No issues! Let's try this again. Please repeat your query?
+  utter_ask_skills:
+  - text: May i know your skills please ?
+  utter_charge:
+  - text: '*HR Name display *'
+  utter_company_achievement:
+  - text: achievement of {company} are * display of achievement of xyz in various
+      fields *
+  utter_company_address:
+  - text: location of {company} is * address of xyz *
+  utter_company_apti_ans:
+  - text: answer is * display the values from Google *
+  utter_company_better:
+  - text: let's check review online * display Google reviews *
+  utter_company_instructions:
+  - text: '* display of cautions and warnings *'
+  utter_company_job_time:
+  - text: '*display the details of the shift and timings as per the company *'
+  utter_company_motto:
+  - text: '* display the motto of company *'
+  utter_company_vacancies:
+  - text: vacancies available are * display the number of vacancies at xyz *
+  utter_did_that_help:
+  - text: Did that help you?
+  - text: I hope that solved your query
+  utter_eligibility_criteria:
+  - text: These are the eligibility criteria for xyz * display eligibility criteria
+      *
+  utter_goodbye:
+  - text: Bye
+  utter_gratitude:
+  - text: Glad that I could be of help to you!
+    buttons:
+    - title: "Registration"
+      payload: "registration"
+    - title: "Queries"
+      payload: "queries"
+  utter_greet:
+  - text: Hey! How can I help you?  
+    buttons:
+    - title: "Registration"
+      payload: "registration"
+    - title: "Queries"
+      payload: "queries"
+  utter_qualification:
+  - text: Please select your qualification
+    buttons:
+    - title: "Under-Graduate"
+      payload: "Qualification is undergraduate"
+    - title: "Post-Graduate"
+      payload: "Qualification is postgraduate"
+    - title: "Ph.d"
+      payload: "Qualification is phd"  
+  utter_yop:
+  - text: Tell us your year of passing
+  utter_experience:
+  - text: Please select your experience
+    buttons:
+    - title: "0 years"
+      payload: "Experience is 0 years"
+    - title: "0-2 years"
+      payload: "Experience is 0-2 years"
+    - title: "2-4 years"
+      payload: "Experience is 2-4 years" 
+    - title: "4+ years"
+      payload: "Experience is 4+ years"
+  utter_phone:
+  - text: Please tell us your phone number
+  utter_details:
+  - text: Your details are 
+  utter_hate:
+  - text: it's ok I dont though
+  utter_helpful:
+  - text: I care for you
+  utter_holidays:
+  - text: '* display yearly calendar *'
+  utter_interview_date:
+  - text: As soon as possible
+  utter_interview_document:
+  - text: ' We would recommend u to carry *display of the documents suggested by company
+      for a candidate to carry *'
+  utter_interview_history:
+  - text: '*display previous applications and results *'
+  utter_interview_round:
+  - text: '* display of steps of interviews *'
+  utter_interview_success:
+  - text: Be yourself,calm and smart.
+  utter_interview_time:
+  - text: display interview schedule
+  utter_job_description_applied:
+  - text: '* display history at particular company'
+  utter_job_match:
+  - text: '* checks the skills and if they match 50% , u can try for interest *'
+  utter_more:
+  - text: Anything more you want to know?
+  utter_popular_company:
+  - text: '*check online reviews and display them *'
+  utter_salary:
+  - text: Salary may vary from xx to yy
+  utter_skills_job:
+  - text: skills required are * display job requirements *
+  utter_stupid_question:
+  - text: friend is still a friend
+  utter_think:
+  - text: ' Hopefully, All the best'
+  utter_unclear:
+  - text: I am not sure what you are aiming for.
+  utter_user_ideal:
+  - text: " can't define but with more skills and talent u will achieve sooner"
+  utter_development: 
+  - text: work involved in developing a website for the internet or a intranet  
+  utter_services: 
+  - text: any piece of software that makes itself available over the internet and uses standardized XML   
+  utter_representative: 
+  - text: who handle complaints, process order and provide information about an organisations' products or services  
+  utter_astronomy: 
+  - text: science which deals with celestial objects, space and the physical universe as a whole.  
+  utter_statistics: 
+  - text: practise or science ofcollecting and analysing numercial data  
+  utter_BPO: 
+  - text: business process outsourcing  
+  utter_mirroring: 
+  - text: show reflection of  
+  utter_BCOM: 
+  - text: bachelor of commerce  
+  utter_NASA: 
+  - text: national aeronautics and space administration  
+  utter_CEO: 
+  - text: chief executive officer  
+  utter_SEO: 
+  - text: search engine optimization  
+  utter_JAVA: 
+  - text: java programming  
+  utter_CS: 
+  - text: company secretary  
+  utter_CA: 
+  - text: chartered accountant  
+  utter_MBA: 
+  - text: masters in business administration  
+  utter_MMM: 
+  - text: masters in marketing management  
+  utter_INS: 
+  - text: insurance  
+  utter_AD: 
+  - text: Authorized Dealer   
+  utter_ABM: 
+  - text: Assistant Branch Manager   
+  utter_AEPS: 
+  - text: Aadhaar Enabled Payments Switch   
+  utter_AFS: 
+  - text: Annual Financial Statement   
+  utter_AGM: 
+  - text: Annual General Meeting   
+  utter_ASSOCHAM: 
+  - text: Associated Chambers of Commerce and Industry of India   
+  utter_AIF: 
+  - text: Alternative Investment Fund   
+  utter_ADR: 
+  - text: American Depository Receipt   
+  utter_AIC: 
+  - text: Agricultural Insurance Company   
+  utter_ALM: 
+  - text: Asset Liability Management   
+  utter_ARC: 
+  - text: Asset Reconstruction Companies     
+  utter_AMFL: 
+  - text: Association of Mutual Funds in India   
+  utter_APBS: 
+  - text: Aadhaar Payment Bridge System      
+  utter_BOP: 
+  - text: Balance of Payments   
+  utter_BOE: 
+  - text: Bill of Exchange   
+  utter_BOT: 
+  - text: Build, Operate and Transfer   
+  utter_BSE: 
+  - text: Bombay Stock Exchange   
+  utter_ACT: 
+  - text: Banking Regulations Act   
+  utter_BCBS: 
+  - text: Basel Committee on Banking Supervision   
+  utter_BCSBI: 
+  - text: Banking codes and standards board of India  
+  utter_BIRD: 
+  - text: Bankers Institute of Rural Development  
+  utter_BIS: 
+  - text: Bank for International Settlements.   
+  utter_BPLR: 
+  - text: Benchmark Prime Lending Rate.   
+  utter_CAD: 
+  - text: Capital Account Deficit.   
+  utter_CCIL: 
+  - text: Clearing Corporation of India Limited   
+  utter_CASA: 
+  - text: Current and Savings Account.   
+  utter_CDRS: 
+  - text: Corporate Debt Restructuring   
+  utter_CMIS: 
+  - text: Currency Management Information System   
+  utter_CPFF: 
+  - text: Commercial Paper Funding Facility   
+  utter_isCOB: 
+  - text: Corporation Bank   
+  utter_CAR: 
+  - text: Capital Adequacy Ratio   
+  utter_CRR: 
+  - text: Cash Reserve Ratio   
+  utter_CARE: 
+  - text: Credit Analysis and Research Limited   
+  utter_CPI: 
+  - text: Consumer Price Index   
+  utter_CBS: 
+  - text: Core Banking Solutions   
+  utter_CCEA: 
+  - text: Cabinet Committee on Economic Affairs.   
+  utter_CDR: 
+  - text: Corporate Debt Restructuring   
+  utter_CRISIL: 
+  - text: Credit Rating Information Services Of India   
+  utter_CSR: 
+  - text: Corporate social responsibility   
+  utter_CBLO: 
+  - text: Collateralized Bank Lending Obligations   
+  utter_CDS: 
+  - text: Credit Default Swap   
+  utter_CNP: 
+  - text: Card Not Present   
+  utter_CEPA: 
+  - text: Comprehensive Economic Partnership Agreement.   
+  utter_CTI: 
+  - text: Country Threat Index   
+  utter_DRAT: 
+  - text: Debt Recovery Appellate Tribunal   
+  utter_DSCR: 
+  - text: Debt Service Coverage Ratio   
+  utter_DPN: 
+  - text: Demand Promissory Note   
+  utter_DPG: 
+  - text: Deferred Payment Guarantee   
+  utter_DRI: 
+  - text: Differential Rate of Interest   
+  utter_ECS: 
+  - text: Electronic Clearing System   
+  utter_EDI: 
+  - text: Electronic Data Interchange   
+  utter_ELSS: 
+  - text: Equity Linked Saving Scheme   
+  utter_EFTPOS: 
+  - text: Electronic Funds Transfer At Point Of Sale   
+  utter_EEFC: 
+  - text: Exchange Earners’ Foreign Currency   
+  utter_EPFO: 
+  - text: Employees’ Provident Fund Organization   
+  utter_EDF: 
+  - text: Export Development Fund   
+  utter_EDP: 
+  - text: Entrepreneurship Development Programme   
+  utter_EPS: 
+  - text: Earnings per Share   
+  utter_EFT: 
+  - text: Electronic Fund Transfer   
+  utter_EMI: 
+  - text: Equated Monthly Installments   
+  utter_FDI: 
+  - text: Foreign Direct Investment   
+  utter_EXIM: 
+  - text: Export Import Bank of India   
+  utter_FCNRA: 
+  - text:  Foreign Currency Nonresident Account   
+  utter_EPOS: 
+  - text:  Electronic Point Of Sale   
+  utter_FOB: 
+  - text:  Free On Board   
+  utter_FIMMDA: 
+  - text:  Fixed Income Money Markets and Derivatives Association   
+  utter_FICCI: 
+  - text: Federation of Indian Chambers of Commerce and Industry   
+  utter_FEMA: 
+  - text: Foreign Exchange Management Act   
+  utter_FERA: 
+  - text: Foreign Exchange Regulation Act   
+  utter_FINO: 
+  - text:  Financial Inclusion Network Operation  
+  utter_FIPB: 
+  - text:  Foreign Investment Promotion Board   
+  utter_FPI: 
+  - text: Foreign Portfolio Investment.   
+  utter_GDP: 
+  - text: Gross Domestic Product   
+  utter_GAAR: 
+  - text: General Anti Avoidance Rule   
+  utter_GIRO: 
+  - text: Government Internal Revenue Order   
+  utter_GMS: 
+  - text: Gold Monetization Scheme  
+  utter_GST: 
+  - text:  Goods and Service Tax   
+  utter_GSTN: 
+  - text: Goods and Services Network   
+  utter_GNP: 
+  - text: Gross National Product   
+  utter_HDFC: 
+  - text: Housing Development Finance Corporation   
+  utter_IBA: 
+  - text:  Indian Bank Associations.   
+  utter_ICA: 
+  - text:  Indian Council of Agricultural Research  
+  utter_IIB: 
+  - text: International Investment Bank  
+  utter_ICICI: 
+  - text: Industrial Credit and Investment Corporation of India   
+  utter_ICRA: 
+  - text: Indian Credit Rating Agency.   
+  utter_IPPB: 
+  - text: India Post Payments Bank   
+  utter_IBRD: 
+  - text: International Bank for Reconstruction and Development   
+  utter_IFSC: 
+  - text:  Indian Financial System Code   
+  utter_ISCI: 
+  - text:  International Standard Industrial Classification  
+  utter_IMPS: 
+  - text:  Immediate Payment Service   
+  utter_IMF: 
+  - text: International Monetary Fund   
+  utter_IRDA: 
+  - text:  Insurance Regulatory and Development Authority of India   
+  utter_INFINET: 
+  - text: Indian Financial Network  
+  utter_IPO: 
+  - text:  Initial Public Offering   
+  utter_IROs: 
+  - text:  Interest Rate Options   
+  utter_KYC: 
+  - text: Know Your Customer   
+  utter_KMB: 
+  - text: Kotak Mahindra Bank   
+  utter_KVB: 
+  - text: Karur Vysya Bank   
+  utter_KVP: 
+  - text: Kisan Vikas Patra   
+  utter_KVIC: 
+  - text:  Khadi and Village Industries Corporation  
+  utter_LIBOR: 
+  - text: London Inter-Bank Offered Rate.  
+  utter_LAB: 
+  - text: Local Area Bank  
+  utter_OTCEI: 
+  - text: Over the Counter Exchange of India   
+  utter_PIN: 
+  - text: Personal Identification Number.   
+  utter_PPP: 
+  - text: Purchasing Power Parity/ Public Private Partnership.   
+  utter_PFRDA: 
+  - text:  Pension Fund Regulatory and Development  Authority   
+  utter_PIS: 
+  - text:  Portfolio Investment Scheme   
+  utter_PRSF: 
+  - text: Partial Risk Sharing Facility   
+  utter_PACS: 
+  - text: Primary Agricultural Credit Societies   
+  utter_PSB: 
+  - text: Public Sector Bank.   
+  utter_RTGS: 
+  - text:  Real Time Gross Settlement.   
+  utter_ROI: 
+  - text:  Return On Investment   
+  utter_RBI: 
+  - text: Reserve Bank of India   
+  utter_RIDF: 
+  - text: Rural Infrastructure Development Fund   
+  utter_SENSEX: 
+  - text: Sensitive Index of Stock Exchange.   
+  utter_SIDBI: 
+  - text: Small Industries Development Bank of India.  
+  utter_SLR: 
+  - text: Statutory Liquidity Ratio.   
+  utter_SLRS: 
+  - text: Scheme for Liberation and Rehabilitation of Scavengers  
+  utter_SIPS: 
+  - text: Systematically Important Payment System  
+  utter_SPNS: 
+  - text: Shared Payment Network System  
+  utter_SWIFT: 
+  - text: Society for Worldwide Interbank Financial Telecommunication.   
+  utter_TIN: 
+  - text: Tax Information Network/ Telephone Identification Number.   
+  utter_UIDAI: 
+  - text: Unique Identification Development Authority of India.   
+  utter_UTI: 
+  - text: Unit Trust of India   
+  utter_UPIN: 
+  - text: Unique Property Identification Numbers   
+  utter_USSD: 
+  - text: Unstructured Supplementary Service Data   
+  utter_UPI: 
+  - text: United Payment Interface.   
+  utter_WBCIS: 
+  - text: Weather Based Crop Insurance Scheme   
+  utter_WCTL: 
+  - text: Working Capital Term Loan   
+  utter_YTM: 
+  - text: Yield To Maturity   
+  utter_LAF: 
+  - text: Liquidity  Adjustment Facility   
+  utter_LAMPS: 
+  - text: Large Sized Adivasi Multipurpose Societies   
+  utter_LIC: 
+  - text:  Life Insurance Company   
+  utter_LTCG: 
+  - text: Long Term Capital Gains   
+  utter_MICR: 
+  - text: Magnetic Ink Character Recognition.   
+  utter_MSF: 
+  - text:  Marginal Standing Facility.   
+  utter_MIS: 
+  - text: Management Information System   
+  utter_MSS: 
+  - text: Market Stabilization Scheme   
+  utter_MTN: 
+  - text:  Medium Term Note   
+  utter_MUDRA: 
+  - text: Micro Units Development and Refinance Agency   
+  utter_NABARD: 
+  - text: National Bank for Agriculture and Rural Development.   
+  utter_NDTL: 
+  - text: Net Demand and Time Liabilities.   
+  utter_NEFT: 
+  - text: National Electronic Fund Transfer.   
+  utter_NPA: 
+  - text: Non-Performing Assets.   
+  utter_NDA: 
+  - text: Net Domestic Asset   
+  utter_NDS: 
+  - text:  Negotiated Dealing Systems   
+  utter_NECS: 
+  - text: Net Demand and Time Liability  
+  utter_NPCI: 
+  - text: National Payments Corporation Of India  
+  utter_OCB: 
+  - text: Overseas Corporate Bodies  
+  utter_OMO: 
+  - text: Open Market Operations  
+  utter_OLTAS: 
+  - text:  Online Tax Accounting System   
+  utter_ANBC: 
+  - text: Adjusted Net Bank Credit   
+  utter_ACF: 
+  - text: Auto Correlation Function   
+  utter_ABEDA: 
+  - text: Arab Bank for Economic Development in Africa   
+  utter_AMRMS: 
+  - text:  Audit and Risk Monitoring Mechanism   
+  utter_ALCO: 
+  - text: Asset Liability Committee  
+  utter_AMFI: 
+  - text: Association of Mutual Fund in India.  
+  utter_ASBA: 
+  - text: Application Supported by Blocked Account.   
+  utter_ATM: 
+  - text: Automated Teller Machine   
+  utter_BANK: 
+  - text: non profit organisation  
+  utter_BANKS: 
+  - text: financial services provided by banksto high-net-worth individuals with high level of incomes  
+  utter_INDIA: 
+  - text: Reserve Bank of India   
+  utter_NGO: 
+  - text: a person who manages or owns a bank. 
+  utter_out_of_context:
+  - text: i am sorry but this is not the right platform for this.
+  utter_faq_0: 
+  - text: Yes. Registration is free for job seekers. 
+  utter_faq_1: 
+  - text: Register for free. Complete all the required information then click on the “Create new account” button.
+  utter_faq_2: 
+  - text: Registered Job Seekers can subscribe to job adverts and job categories. You will also have an on CV profile that can be searched by job advertisers and employers. We advise job seekers to complete their online CV profile so that they can be included in our website’s Job Seeker Search.
+  utter_faq_3: 
+  - text: Ensure that you complete and update your online CV profile. You should also upload your CV in MSword or pdf format
+  utter_faq_4: 
+  - text: Use our Job Search Filter on  the page. This option lets you filter the job adverts by location, industry and/or job type. After selecting your preferences click on the “Search” button.
+  utter_faq_5: 
+  - text: Please click “Apply for this Job” and complete all fields on the application. If no position meets your current interest, you can Submit Resume to us for future consideration.
+  utter_faq_6: 
+  - text: You need to be registered as a Job Seeker and logged in.
+  utter_faq_7: 
+  - text: To reset your password go to Request a new Password. Type you email address that you used to create your user account and click on “Email new password” Then follow the easy steps as the email explains.
+  utter_faq_8: 
+  - text: Desired Job Details gives you an opportunity to provide your preferred location and preferred specializations in which you are looking for a job which might differ from your current one. This will make sure that you receive only those matches which match your profile as well as the preferences.
+  utter_faq_9: 
+  - text: You can enter your Preferred City or Location by login to your  account, clicking on desired job details tab.
+  utter_faq_10: 
+  - text: You can enter your Preferred City or Location by login to your  account, clicking on desired job details tab.
+  utter_faq_11: 
+  - text: You can enter your Preferred City or Location by login to your  account, clicking on desired job details tab.
+  utter_faq_12: 
+  - text: You can enter your Preferred City or Location by login to your  account, clicking on desired job details tab.
+  utter_faq_13: 
+  - text: Verification of user's email id is required to make sure that no one other than the user himself/herself is using his/her email id to register
+  utter_faq_14: 
+  - text: You will have to log in and click on edit profile link in "My Profile" section. It is important that you keep you profile up-to-date to ensure that you receive relevant matched positions.
+  utter_faq_15: 
+  - text: You can set your profile status under the Account Details by clicking on the "General" tab of "My Profile". You have the following two options for your profile status. You can keep your profile visible. In this case, all recruiters will be able to see your complete profile. You can keep your profile anonymous. In this case, your name, email, contact numbers, address, resume, photo and information about companies you have worked for, will be hidden from the recruiter. Recruiter will be able to see other details of your profile. Once you apply for a job, your complete profile will be visible to the employer who posted that job. At the time of registration your profile's default status will be anonymous.
+  utter_faq_16: 
+  - text: As our system works for you and find you the matched positions for your skills and preferences, you can also use the search functions to search for jobs. To search jobs, use the searchBar at the top.
+  utter_faq_17: 
+  - text: To apply for a job from the search result, you need to first log in and then click on the apply button given with the job posting. Clicking on this button will take you to the Select Resume page. Select your resume or upload a New resume and click on the button "Apply" to apply for that job.
+  utter_faq_18: 
+  - text: Yes, you can filter the job results. Filter options are available in the left navigation panel right next to the search results. You can filter results by Industry, Experience, Salary, Functional area and Location.
+  utter_faq_19: 
+  - text: Career Info section aims at providing the relevant industry and company information, updated industry and company specific news, featured articles by industry and in house experts. This will provide a job-seeker with enough information about an Industry/ Company/ Job role to be able to take career related decisions like whether to apply for a job in a certain industry/ company, to accept an offer, etc.
+  utter_faq_20: 
+  - text: To access industry specific news, click on the industry in the Industry News from the top navigation panel to reach the industry page.
+  utter_faq_21: 
+  - text: To access a specific company profile, just type in the company name in the box "Search" and press the Go button.
+  utter_faq_22: 
+  - text: To be a part of the discussion on a particular industry/company you can post your comments on the articles on industries and companies
+  utter_faq_23: 
+  - text: Reach the candidate log in by entering your log in and password in the site header or by clicking on Login in the top navigation bar of the homepage header and enter your username (email id) and password.
+  utter_faq_24: 
+  - text: You need to check your username and password if you are not able to log in to your account. Please visit your email id and look for the welcome mail received
+  utter_faq_25: 
+  - text: If you are not able to trace the welcome mail received from and you don't remember your username, click on the "Forgot username" link below the log in box. It will prompt you to enter your  (email id). A link will be sent to you on your email id.
+  utter_faq_26: 
+  - text: Home section gives you access to, My Profile- Gives you access to your profile. You can update/edit your profile in this section. My Jobs- Here you can review and apply for the jobs which match your profile.
+  utter_faq_27: 
+  - text: Log in to your account by clicking on the log in link at the right hand side of the header of the homepage. Once you have logged in, click on the "Home "section.
+  utter_faq_28: 
+  - text: You can Edit Edit/Update your Profile by following these steps. First Login to your Account Using you verified Email ID and Password. Then go to "My Profile" page. There you can Edit your profile by clicking on the "Edit" link against each Parameter.
+  utter_faq_29: 
+  - text: To Upload a New Resume or to Change your Old resume, click on the my Profile section where at the bottom right of the page you will find the "Resume Tab" where you will find the options of Upload New Resume/Delete Resume/Change Default.
+  utter_faq_30: 
+  - text: You can add previous job(s) details by selecting the area of work, specialization, role and no. of years in that job and click on add another job.
+  utter_faq_31: 
+  - text: To add another educational qualification, just select the qualification, specialization, institute and course type and press add to list. Press the save button, to save the changes to your profile
+  utter_faq_32: 
+  - text: You can set your profile status under the Account Details by clicking on the "General" tab of "My Profile". You have the following two options for your profile status.
+  utter_faq_33: 
+  - text: Job matching is different from Job search because it's not based just on keyword search.
+  utter_faq_34: 
+  - text: You can set your profile status under the Account Details by clicking on the "General" tab of "My Profile". 
+  utter_faq_35: 
+  - text: If you don't see any jobs matching your profile, then go through the help tips.
+  utter_faq_36: 
+  - text: The job matches are listed as per the relevance of the job posted. The more relevant job appears higher in the job matches.
+  utter_faq_37: 
+  - text: click on "Block Recruiters" where you can add the name of the companies that you want to block.
+  utter_faq_38: 
+  - text: Other Suggested Jobs are those Jobs that match your profile but do not take in to account your Desired Job Details. 
+  utter_faq_39: 
+  - text: To apply for the jobs which match your profile, just click on the button "apply" given besides the job description.
+  utter_faq_40: 
+  - text: Yes, you need to register to be able to apply for a job
+  utter_faq_41: 
+  - text: The recruiter has requested answer to these questions as part of his job requirement. Hence you need to provide answers to these questions in case you want to apply for this job.
+  utter_faq_42: 
+  - text: Yes, you can apply for as many jobs as you want.
+  utter_faq_43: 
+  - text: No, if you have already applied to a job posting, you can not apply for the same again.
+  utter_faq_44: 
+  - text: We need your employment information to know the details about your past experience. This will help us match your profile with the right opportunities.
+  utter_faq_45: 
+  - text: You need to fill the Job Title and the Company Name. You need to select Industry of the Company from the list generated. You can use "Know More" link to find out what is the Industry of your Company.
+  utter_faq_46: 
+  - text: Yes, you can enter multiple job by login to your Account.
+  utter_faq_47: 
+  - text: We value your privacy. Current salary is a mandatory field as we need this information to help you understand your current position vis-a-vis peers, and estimate the average annual salary for your profile in the market with our internationally proven salary benchmarking tool. Moreover, Recruiters use this information to select candidates.
+  utter_faq_48: 
+  - text: We need your education information to know the details about your Qualifications. This will help us match your profile with the right opportunities.
+  utter_faq_49: 
+  - text: You can enter multiple Education Qualifications by login to your account. Click on "Add Previous Qualification in order to get better matching jobs' button to enter multiple Education qualifications
+  utter_faq_50: 
+  - text: Yes, you need a valid email id to register
+  utter_faq_51: 
+  - text: Yes. Analysed.in Services offers a variety of tools to help you in your job search
+  utter_faq_52: 
+  - text: Yes. Each position has a dedicated recruiter assigned to it. When you apply to a position, the recruiter is notified of your interest and will follow up with you in the event your skills match the requirements of the position.
+  utter_faq_53: 
+  - text: While our recruiters review your information, we would advice you to preapre for your interview and enhance your skills
+  utter_faq_54: 
+  - text: we appreciate your patience while our recruiters review your background. You will be contacted if there is a fundamental match with an active open position.
+  utter_faq_55: 
+  - text: We recommend applying online for Career Opportunities that are a match for your skills. If no position meets your objectives, Submit Resume directly to us and we will put it in our database which is searchable by recruiters when future positions arise.
+  utter_faq_56: 
+  - text: If you are actively engaged with our recruiter on a position, please contact that recruiter for advice or to answer any questions you have.
+  utter_faq_57: 
+  - text: Typically employers will use your salary history to guide an appropriate offer for your next position. It is common to receive a moderate increase on your current total compensation.
+  utter_faq_58: 
+  - text: It is normally not required to meet in person as part of Naviga’s recruiting process. We often utilize phone and video interviewing as needed for the search.
+  utter_faq_59: 
+  - text: If you don’t hear back from an interviewer right away, don’t follow up again until after the interviewer’s deadline has passed. If the date passes and you still haven’t heard anything, send a brief follow-up to remind the interviewer about your qualifications and interest
+  utter_faq_60: 
+  - text: Absolutely! If you think you can handle the job requirements, it never hurts to apply for the position.
+  utter_faq_61: 
+  - text: You can mail at our support email provided at site.
+  utter_faq_62: 
+  - text: to access the full job listings in our current database you have to be a paid member.
+  utter_faq_63: 
+  - text:  if you are not satisfied with the quality of our service for any reason, simply cancel your subscription and request a refund 
+  utter_faq_64: 
+  - text: If you submit a password reset from the system and you do not receive it, please check your spam/junk folder in your email. Unfortunately, some email providers will block or file those notices automatically. Also, we have had issues with Comcast blocking password requests, so if you are using a Comcast email address, please contact Client Services and we can manually update your password for you.
+  utter_faq_65: 
+  - text: If you log into a paid account, you will be taken to your homepage with the Message Inbox and New Jobs of Interest sections. If you log into an account and are taken to the payment screen, it means that the email address is registered, but does not have a paid subscription associated with it. Please check to see if you are entering the email address you received on your payment confirmation to log into your paid subscription.
+  utter_faq_66: 
+  - text: If you receive a Gateway error after entering and submitting your credit card information, this charge will not be processed to your card. This error typically means that your billing zip code does not match what is on file with your bank or credit card company. If you have recently moved, please check with your bank or credit card provider to confirm the address they have on file for you.
+  utter_faq_67: 
+  - text: Yes, we do accept prepaid Visa, MasterCard, or American Express cards. However, you do need to call us, so we can process this transaction for you. We are available from 9:00 a.m. to 6:00 p.m. (MST), Monday - Friday
+  utter_faq_68: 
+  - text:  Includes part-time, freelance, temporary, seasonal, and flexible schedule jobs, many of which do require the worker to report to a specific location some or all of the time.
+  utter_faq_69: 
+  - text: We recommend using the Advanced Search to search by job types, location, areas of interest, schedules, and more. You can select multiple criteria to find the best jobs to match your skill sets and the type of flexibility you are seeking
+  utter_faq_70: 
+  - text: Yes! Our amazing job research team hand-screens every single job and company added to our site, so you will only find jobs and companies that are legitimate, professional, and offer at least one type of flexibility.
+  utter_faq_71: 
+  - text: Yes! You can.
+  utter_faq_72: 
+  - text: We hand-clean our database regularly to keep our listings as current and accurate as possible. We remove filled positions on a daily basis. 
+  utter_faq_73: 
+  - text: There are certainly some employers that can hire
+  utter_faq_74: 
+  - text:  it is up to each individual employer on how it handles international candidates
+  utter_faq_75: 
+  - text: Unfortunately, nowadays it is increasingly rare to have employers include salary/pay rate information upfront in job postings. And since it is entirely up to each individual employer to decide if it is going to include that information in a job posting, you will only be able to see what employers want to share.
+  utter_faq_76: 
+  - text: No, it does not require any software, other than an Internet browser, to be purchased or downloaded onto your computer to use our service
+  utter_faq_77: 
+  - text: While we don't provide individual or tailored job searching services. you can report a bug or request a new feature to enhance our job searching and matching service by going to our contact page and entering your request in the provided contact form.
+  utter_faq_78: 
+  - text: It does not guarantee job placement. While we do the research on all the jobs we publish, the hiring process is all handled by the employer directly. However, it does guarantee that you’ll find only hand-screened, professional job leads with no ads, scams, or other junk on our site.
+  utter_faq_79: 
+  - text: We are committed to providing the easiest, fastest way to find reliable flexible jobs and certainly welcome questions to our Client Services department. We'll always try to help you as best we can! You can get in touch with us via email
+  utter_faq_80: 
+  - text: Yes! It does.
+  utter_faq_81: 
+  - text: After you applied, you should have received a confirmation email that the company received your application. If there’s a link in the email, then please follow that link to check your status. If not, you’ll need to contact the company that you are applying to directly.
+  utter_faq_82: 
+  - text: With rare exceptions, you cannot apply to the same job twice. You can access your previous application through your job seeker account to contact the hiring team if you would like to request being reconsidered.
+  utter_faq_83: 
+  - text: it is  used by thousands of companies to manage their recruiting process and plays no part in hiring decisions.
+  utter_faq_84: 
+  - text:  Click on submit a Job Seeker Support Case and complete all the required fields.
+  utter_faq_85: 
+  - text: Currently, you cannot add resumes that are scanned or locked PDFs. Please be sure that the document is a Word document or unlocked PDF. After uploading your resume to populate application fields, you may still need to use the Attach button to include your resume as part of your application file.
+  utter_faq_86: 
+  - text: What you are seeing is a text only preview of your resume. The parsing is for internal search purposes and the recruiter will receive a copy of your resume in the original format (.PDF, .DOC, etc.) as well.
+  utter_faq_87: 
+  - text: Reply to the confirmation email you get with the new resume. Be sure to let the company know that you are re-submitting with an updated resume.
+  utter_faq_88: 
+  - text: If you have included your LinkedIn profile in your job application, it cannot be removed or edited within your application page.
+  utter_faq_89: 
+  - text: ypically, confirmation emails are sent right away, though sometimes prospective employers have email settings in place that will cause a slight delay. If some time has gone by and you have not received a confirmation message, then please check your Spam or Junk folders.
+  utter_faq_90: 
+  - text: You can reply directly to the application confirmation email and your reply will be sent to the recruiter who is managing the job posting you have applied to.
+  utter_faq_91: 
+  - text: Please add the email to your safe sender list.
+  utter_faq_92: 
+  - text: When you click on any link from email, there’s a menu item called ‘Change Notifications.
+  utter_faq_93: 
+  - text: To update your email address, you will want to login to your Jobvite account and select the application you are looking to update. From here, use the ‘New Message’ option to send a message to the recruiter with your updated email address.
+  utter_faq_94: 
+  - text: Due to our privacy policy and contracts with the companies using our software, you’ll need to contact the company you’ve applied to delete your personal information.
+  utter_faq_95: 
+  - text: An application cannot be deleted after it has been submitted, but you can retract your application by contacting the company you applied to directly.
+  utter_faq_96: 
+  - text: Company does not remove any applications from the companies you previously applied to. We can’t remove those applications because they are required to track all candidate applications for compliance reasons. Therefore, it probably isn’t necessary to delete your account.
+  utter_faq_97: 
+  - text: It’s mandatory to have an ID proof to register on the portal.
+  utter_faq_98: 
+  - text: Yes, it’s safe and secure. It will not be shared with any third party except the authorized portal users 
+  utter_faq_99: 
+  - text: The tab ‘Jobs Applied’ on the left panel of the screen will enlist all the jobs that the user has applied for, till date.
+  utter_faq_100: 
+  - text: No, once registered, jobseekers will only receive notifications via SMS and emails about jobs postings, interviews schedules or events
+  utter_faq_101: 
+  - text: Yes. We recommend you to update your profile (which serves as your CV) as frequently as possible to get more relevant job matching alerts / notifications.
+  utter_faq_102: 
+  - text: There is no minimum - maximum duration for finding a job. It depends on your profile and information you fill in and the job availability on the portal.
+  utter_faq_103: 
+  - text: Yes, You can. You can initiate location-based job search, which will list down all the relevant job postings in your preferred location.
+  utter_faq_104: 
+  - text: Yes. You could. You will need to fill the details accordingly while searching the job on the portal.
+  utter_faq_105: 
+  - text: You can search for the scheduled job fairs by searching the events section and apply for the same.
+  utter_faq_106: 
+  - text: Yes. A detailed list of career information covering all major sectors can be viewed
+  utter_faq_107: 
+  - text: It depends. You can access the career information for free. However, some career guidance sessions / workshops organized by counsellors can be both paid or for free. 
+  utter_faq_108: 
+  - text: Once, you take an appointment you can view it in ‘My Appointments’ tab on the left panel. You can also cancel the appointments through this tab by giving a relevant reason for the same.
+  utter_faq_109: 
+  - text: Once registered, you can view the list of skill providers based on geography or the areas of interest.
+  utter_faq_110: 
+  - text: Yes. You can refer and encourage friends to register on the portal to avail the career-services
+  utter_faq_111: 
+  - text: Yes. It’s mandatory
+  utter_faq_112: 
+  - text: Enter your email address and click Activate.
+  utter_faq_113: 
+  - text: While it is not possible to recreate a cancelled Job Alert, it is easy to create a new one. Please create a new Job Alert if you would like to continue receiving emails with jobs.
+  utter_faq_114: 
+  - text: Go to resume page and click on edit option.
+  utter_faq_115: 
+  - text: Using Indeed is just like using any search engine, such as Google. You can quickly search from the homepage. Click on Search option.
+  utter_faq_116: 
+  - text: When a job posting doesn't include a salary, we estimate it by looking at similar jobs. When salaries are available, they are shown in our search results. Estimated salaries are not provided by the companies offering those positions and may vary from actual salaries
+  utter_faq_117: 
+  - text: Organic listings are ranked solely by relevance or date. These are the latest jobs related to your search query, and will naturally fall back in search results over time as new roles are added.
+  utter_faq_118: 
+  - text: You can change the radius using the Distance drop-down box on the left hand side of the search results page.
+  utter_faq_119: 
+  - text: In most cases, it’s not possible to withdraw your application after it is submitted. So, it’s important to review your application and fix any errors before submitting it to the employer. Click the edit button in the top-right corner of your application to update your information. 
+  utter_faq_120: 
+  - text: Refresh the page and try again
+  utter_faq_121: 
+  - text: All the needed information has already there in the application form. Fill all the deatil.
+  utter_faq_122: 
+  - text: Align your resume skills and competencies with the JD given by company and as per company requirements.
+  utter_faq_123: 
+  - text: Please resond to the job posting adhering to the time slab given by company.
+  utter_faq_124: 
+  - text: We suggest you to update it regularly with skills and achievement to acquire more options.
+  utter_faq_125: 
+  - text: Fraudulent email messages referred to as "phishing" are becoming more common. It does not request personal information, financial information, account numbers, bank account numbers in an unsolicited manner through an email request. If you have any questions, please contact us.
+  utter_faq_126: 
+  - text: Yes, it’s safe and secure. It will not be shared with any third party except the authorized portal users 
+  utter_name:
+  - text: can you please tell me your name
+  utter_email:
+  - text: can you please tell me your email
+  utter_registration:
+  - text: we will do registration for you
+
