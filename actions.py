@@ -1,9 +1,131 @@
-from typing import Any, Text, Dict, List
+from typing import Any, Text, Dict, List, Union, Optional
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet, Restarted
 
 import sqlite3
+from rasa_sdk.forms import FormAction
+
+
+class RegistrationForm(FormAction):
+    """Example of a custom form action"""
+
+    def name(self) -> Text:
+        """Unique identifier of the form"""
+
+        return "registration_form"
+
+    @staticmethod
+    def required_slots(tracker: Tracker) -> List[Text]:
+        """A list of required slots that the form has to fill"""
+
+        return ["name", "email", "qualification", "experience", "phone"]
+
+    def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
+        """A dictionary to map required slots to
+            - an extracted entity
+            - intent: value pairs
+            - a whole message
+            or a list of them, where a first match will be picked"""
+            
+        #"loan_amount": self.from_text(intent=None),
+    
+
+        return {
+            "name": self.from_text(intent=["name",None]),
+            "email": [
+                self.from_entity(
+                    entity="email", intent=["email"]
+                ),
+            ],
+            "qualification": [
+                self.from_entity(entity="qualification", intent=["qualification"]),
+            ],
+            "experience": [
+                self.from_entity(entity="experience",intent=["experience"]),
+            ],
+            "phone": [self.from_entity(entity="phone",intent=["phone"])],
+        }
+
+    def is_int(string: Text) -> bool:
+        """Check if a string is an integer"""
+
+        try:
+            int(string)
+            return True
+        except ValueError:
+            return False
+
+    # USED FOR DOCS: do not rename without updating in docs
+    def validate_name(
+        self,
+        value: Text,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> Optional[Text]:
+        """Validate cuisine value."""
+
+        
+        return {"name": value}
+        
+
+    def validate_email(
+        self,
+        value: Text,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> Optional[Text]:
+        """Validate num_people value."""
+
+        
+        return {"email": value}
+        
+
+    def validate_qualification(
+        self,
+        value: Text,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> Any:
+        """Validate outdoor_seating value."""
+
+        
+        return {"qualification": value}
+        
+    def validate_phone(
+        self,
+        value: Text,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> Any:
+        """Validate outdoor_seating value."""
+        
+        if len(value) == 10:
+            return {"phone": value}
+        else:
+            dispatcher.utter_template("utter_wrong_phone", tracker)
+            # validation failed, set slot to None
+            return {"phone": None}
+
+
+    def submit(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict]:
+        """Define what the form has to do
+            after all required slots are filled"""
+
+        # utter submit template
+        dispatcher.utter_template("utter_details", tracker)
+        return []
+
+
 
 class action_search_jobs(Action):
     def name(self) -> Text:
