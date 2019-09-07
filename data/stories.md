@@ -1,6 +1,7 @@
 ## questions 1
 * greet
   - action_greet
+  - utter_start
 * registration
   - utter_registration
   - registration_form
@@ -15,6 +16,7 @@
 ## queries 1
 * greet
   - action_greet
+  - utter_start
 * queries
   - utter_queries
 

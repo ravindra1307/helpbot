@@ -239,6 +239,7 @@
 - [2021](yop)
 - [2012](yop)
 - [2010](yop)
+- [1972](yop)
 
 ## intent: queries
 - queries
@@ -251,7 +252,7 @@
 - Experience is [0](experience) years
 - Experience is [0-2](experience) years
 - Experience is [2-4](experience) years
-- Experience is [4+](experience) years
+- Experience is [4](experience)+ years
 
 ## intent:phone
 - [7581054335](phone)
