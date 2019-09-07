@@ -19,7 +19,7 @@ class RegistrationForm(FormAction):
     def required_slots(tracker: Tracker) -> List[Text]:
         """A list of required slots that the form has to fill"""
 
-        return ["name", "email", "qualification", "experience", "phone"]
+        return ["name", "email", "qualification", "experience", "phone","yop"]
 
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
         """A dictionary to map required slots to
@@ -44,6 +44,7 @@ class RegistrationForm(FormAction):
             "experience": [
                 self.from_entity(entity="experience",intent=["experience"]),
             ],
+            "yop": [self.from_entity(entity="yop",intent=["yop"])],
             "phone": [self.from_entity(entity="phone",intent=["phone"])],
         }
 
@@ -110,7 +111,22 @@ class RegistrationForm(FormAction):
             dispatcher.utter_template("utter_wrong_phone", tracker)
             # validation failed, set slot to None
             return {"phone": None}
-
+    
+    def validate_yop(
+        self,
+        value: Text,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> Any:
+        """Validate outdoor_seating value."""
+        
+        if int(value) >= 1970 and int(value) <= 2023 and len(value) == 4:
+            return {"yop": value}
+        else:
+            dispatcher.utter_template("utter_wrong_yop", tracker)
+            # validation failed, set slot to None
+            return {"yop": None}
 
     def submit(
         self,
@@ -225,20 +241,25 @@ class action_detail(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain):
       
       name = tracker.get_slot('name')
-      dispatcher.utter_message('name is ' + name.lower())
+      dispatcher.utter_message('Name is ' + name.lower())
       email = tracker.get_slot('email')
-      dispatcher.utter_message('email is ' + email.lower())
+      dispatcher.utter_message('Email is ' + email.lower())
       experience = tracker.get_slot('experience')
-      dispatcher.utter_message('experience is ' + experience.lower())
+      if experience.lower() == '4':
+        dispatcher.utter_message('Experience is ' + experience.lower() + '+ years')
+      else:
+        dispatcher.utter_message('Experience is ' + experience.lower()+' years')
       qualification = tracker.get_slot('qualification')
-      dispatcher.utter_message('qualification is ' + qualification.lower())
+      dispatcher.utter_message('Qualification is ' + qualification.lower())
       phone = tracker.get_slot('phone')
-      dispatcher.utter_message('phone is ' + phone.lower())
+      dispatcher.utter_message('Phone is ' + phone.lower())
+      yop = tracker.get_slot('yop')
+      dispatcher.utter_message('Year of passing is ' + yop)
 
       conn = sqlite3.connect('registration_data.db')     
       
-      q = conn.execute("INSERT INTO data (name,email,experience,qualification,phone) VALUES ('{}','{}','{}','{}','{}')"
-                 .format(name.lower(),email.lower(),experience.lower(),qualification.lower(),phone.lower()))
+      q = conn.execute("INSERT INTO data (name,email,experience,qualification,phone,yop) VALUES ('{}','{}','{}','{}','{}','{}')"
+                 .format(name.lower(),email.lower(),experience.lower(),qualification.lower(),phone.lower(),yop.lower()))
       conn.commit()
       conn.close()
 
