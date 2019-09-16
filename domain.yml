@@ -211,7 +211,7 @@ intents:
 - experience
 - qualification
 - phone
-- greet
+- greet: {triggers: action_greet}
 - think
 - stupid
 - LMN
@@ -372,7 +372,7 @@ slots:
 
 templates:
   utter_contact:
-  - text: Thanks, our team will contact you soon bye.
+  - text: Thanks, our team will contact you soon bye. Say 'Hi' to start conversation again.
   utter_queries:
   - text: Tell me your queries i will try my best to help you
   utter_LMN:
@@ -448,7 +448,7 @@ templates:
     - title: "4+ years"
       payload: "Experience is 4+ years"
   utter_ask_phone:
-  - text: Please tell us your phone number
+  - text: Please tell us your phone number (It will be safe with us)
   utter_details:
   - text: Your details are 
   utter_hate:
@@ -851,7 +851,7 @@ templates:
   utter_NGO: 
   - text: a person who manages or owns a bank. 
   utter_out_of_context:
-  - text: i am sorry but this is not the right platform for this.
+  - text: I am sorry but this is not the right platform for this.
   utter_faq_0: 
   - text: Yes. Registration is free for job seekers. 
   utter_faq_1: 
@@ -1107,11 +1107,11 @@ templates:
   utter_faq_126: 
   - text: Yes, it’s safe and secure. It will not be shared with any third party except the authorized portal users 
   utter_ask_name:
-  - text: Can you please tell me your name
+  - text: Please tell me your Good Name
   utter_ask_email:
-  - text: Can you please tell me your email
+  - text: Please tell me your Email-ID
   utter_registration:
-  - text: We will do registration for you
+  - text: We will do registration for you. Your information are safe with us.
   utter_wrong_yop:
-  - text: please tell us your correct Year of Passing
+  - text: Please tell us your correct Year of Passing
 

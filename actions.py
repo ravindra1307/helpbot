@@ -234,6 +234,8 @@ class action_greet(Action):
         dispatcher.utter_template('utter_out_of_context',tracker)
       else:
         dispatcher.utter_template('utter_greet',tracker)
+        dispatcher.utter_template('utter_start',tracker)
+        return [Restarted()]
 
 class action_detail(Action):
     def name(self) -> Text:
