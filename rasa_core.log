@@ -287,3 +287,12 @@ Traceback (most recent call last):
   File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\router.py", line 469, in _get
     raise NotFound("Requested URL {} not found".format(url))
 sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-09-04 01:50:48,516 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "C:\Users\ravindra\AppData\Roaming\Python\Python37\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\programdata\anaconda3\lib\asyncio\base_events.py", line 584, in run_until_complete
+    return future.result()
+  File "c:\programdata\anaconda3\lib\asyncio\base_events.py", line 1378, in create_server
+    % (sa, err.strerror.lower())) from None
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted

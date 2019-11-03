@@ -190,6 +190,7 @@ actions:
 - utter_details
 - utter_wrong_phone
 - utter_wrong_yop
+- utter_default
 
 entities:
 - name
@@ -1114,4 +1115,6 @@ templates:
   - text: We will do registration for you. Your information are safe with us.
   utter_wrong_yop:
   - text: Please tell us your correct Year of Passing
+  utter_default:
+  - text: Sorry , i didn't understand this, please rephrase it.
 
